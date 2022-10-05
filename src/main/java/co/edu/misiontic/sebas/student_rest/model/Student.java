@@ -1,4 +1,4 @@
-package co.edu.misiontic.sebas.student_rest.model.entity;
+package co.edu.misiontic.sebas.student_rest.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;

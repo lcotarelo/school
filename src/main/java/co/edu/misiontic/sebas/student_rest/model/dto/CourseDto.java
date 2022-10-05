@@ -1,4 +1,4 @@
-package co.edu.misiontic.sebas.student_rest.controller.dto;
+package co.edu.misiontic.sebas.student_rest.model.dto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,5 +18,5 @@ public class CourseDto {
     private int credits;
     private double fee;
 
-    private List<StudentDto> students = new ArrayList<>();
+    private List<StudentDto> students ;
 }

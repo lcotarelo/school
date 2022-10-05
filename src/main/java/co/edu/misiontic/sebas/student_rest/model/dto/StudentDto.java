@@ -1,4 +1,4 @@
-package co.edu.misiontic.sebas.student_rest.controller.dto;
+package co.edu.misiontic.sebas.student_rest.model.dto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,7 @@ public class StudentDto {
     private String firstName;
     private String lastName;
     private String email;
+    private List<CourseDto> courses;
 
     public StudentDto() {
     }
@@ -61,5 +62,4 @@ public class StudentDto {
         this.courses = courses;
     }
 
-    private List<CourseDto> courses = new ArrayList<>();
 }
