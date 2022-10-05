@@ -1,6 +1,5 @@
 package co.edu.misiontic.sebas.student_rest.model.dto;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import lombok.AllArgsConstructor;

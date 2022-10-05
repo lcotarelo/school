@@ -32,5 +32,5 @@ public class Course implements Serializable {
     private double fee;
 
     @ManyToMany(mappedBy = "courses", fetch = FetchType.LAZY)
-    private List<Student> students = new ArrayList<>();
+    private List<Student> students;
 }
